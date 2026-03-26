@@ -1,3 +1,8 @@
+AIDEG — AI Dataset Engine Generator
+
+“AIDEG is a multimodal AI infrastructure system that converts raw video content into structured high-quality training datasets using local LLM reasoning pipelines.”
+
+
 Full System Architecture Design
 🎯 Core Idea
 

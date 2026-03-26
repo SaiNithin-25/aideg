@@ -1,0 +1,61 @@
+(Dg) PS C:\aideg> python -m pipeline.video_parallel_orchestrator
+Total Videos: 4
+Resuming from: 2
+Video Workers: 2
+
+Processing Video 2
+
+Processing Video 3
+[youtube] Extracting URL: https://youtu.be/-UlxHPIEVqA?si=9E0VIAflUTYw9LcI 
+[youtube] Extracting URL: https://youtu.be/nioYljr3oV8?si=fOIv1woqewuVyMer 
+[youtube] -UlxHPIEVqA: Downloading webpage
+[youtube] nioYljr3oV8: Downloading webpage
+[youtube] nioYljr3oV8: Downloading android vr player API JSON 
+[youtube] -UlxHPIEVqA: Downloading android vr player API JSON 
+[youtube] nioYljr3oV8: Downloading player 1ebf2aa6-main 
+[youtube] -UlxHPIEVqA: Downloading player 1ebf2aa6-main 
+[youtube] [jsc:node] Solving JS challenges using node 
+WARNING: [youtube] [jsc] Remote component challenge solver script (node) was skipped. It may be required to solve JS challenges. You can enable the download with  --remote-components ejs:github  (recommended). For more information and alternatives, refer to  https://github.com/yt-dlp/yt-dlp/wiki/EJS
+WARNING: [youtube] nioYljr3oV8: n challenge solving failed: Some formats may be missing. Ensure you have a supported JavaScript runtime and challenge solver script distribution installed. Review any warnings presented before this message. For more details, refer to  https://github.com/yt-dlp/yt-dlp/wiki/EJS
+[youtube] [jsc:node] Solving JS challenges using node 
+WARNING: [youtube] [jsc] Remote component challenge solver script (node) was skipped. It may be required to solve JS challenges. You can enable the download with  --remote-components ejs:github  (recommended). For more information and alternatives, refer to  https://github.com/yt-dlp/yt-dlp/wiki/EJS
+WARNING: [youtube] -UlxHPIEVqA: n challenge solving failed: Some formats may be missing. Ensure you have a supported JavaScript runtime and challenge solver script distribution installed. Review any warnings presented before this message. For more details, refer to  https://github.com/yt-dlp/yt-dlp/wiki/EJS
+[info] nioYljr3oV8: Downloading 1 format(s): 134+251 
+[info] -UlxHPIEVqA: Downloading 1 format(s): 397+251 
+[download] Destination: datasets\video_2\video.f134.mp4
+[download]   0.1% of   51.40MiB at    8.19MiB/s ETA 00:06[download] Destination: datasets\video_3\video.f397.mp4
+[download] 100% of   25.08MiB in 00:00:13 at 1.89MiB/s
+[download] Destination: datasets\video_3\video.f251.webm
+[download] 100% of   51.40MiB in 00:00:25 at 1.99MiB/s
+[download] Destination: datasets\video_2\video.f251.webm
+[download] 100% of   30.25MiB in 00:00:17 at 1.73MiB/s
+[Merger] Merging formats into "datasets\video_3\video.mp4"
+[download]  35.5% of   33.81MiB at    9.51MiB/s ETA 00:02Deleting original file datasets\video_3\video.f251.webm (pass -k to keep)
+Deleting original file datasets\video_3\video.f397.mp4 (pass -k to keep)
+[download] 100% of   33.81MiB in 00:00:12 at 2.71MiB/s
+[Merger] Merging formats into "datasets\video_2\video.mp4"
+Deleting original file datasets\video_2\video.f134.mp4 (pass -k to keep)
+Deleting original file datasets\video_2\video.f251.webm (pass -k to keep)
+🚀 Starting processing 30 chunks with 4 workers...
+
+Status: Works loading... (Active: 4/4) | Num of works loaded: 1/30 | GPU Usage: 35% | VRAM: 5.36GB 🚀 Starting processing 41 chunks with 4 workers...
+
+Status: Works loading... (Active: 8/4) | Num of works loaded: 2/30 | GPU Usage: 35% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 3/30 | GPU Usage: 29% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 4/30 | GPU Usage: 1% | VRAM: 3.21GB /Status: Works loading... (Active: 8/4) | Num of works loaded: 1/41 | GPU Usage: 52% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 5/30 | GPU Usage: 12% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 2/41 | GPU Usage: 12% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 3/41 | GPU Usage: 12% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 4/41 | GPU Usage: 12% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 6/30 | GPU Usage: 91% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 7/30 | GPU Usage: 12% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 8/30 | GPU Usage: 0% | VRAM: 3.21GB /Status: Works loading... (Active: 8/4) | Num of works loaded: 5/41 | GPU Usage: 25% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 9/30 | GPU Usage: 59% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 10/30 | GPU Usage: 12% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 6/41 | GPU Usage: 0% | VRAM: 3.21GB /Status: Works loading... (Active: 8/4) | Num of works loaded: 7/41 | GPU Usage: 0% | VRAM: 3.21GB /Status: Works loading... (Active: 8/4) | Num of works loaded: 8/41 | GPU Usage: 0% | VRAM: 3.21GB /Status: Works loading... (Active: 8/4) | Num of works loaded: 11/30 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 12/30 | GPU Usage: 13% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 9/41 | GPU Usage: 0% | VRAM: 3.21GB /Status: Works loading... (Active: 8/4) | Num of works loaded: 13/30 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 14/30 | GPU Usage: 91% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 15/30 | GPU Usage: 3% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 10/41 | GPU Usage: 11% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 11/41 | GPU Usage: 11% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 12/41 | GPU Usage: 11% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 16/30 | GPU Usage: 77% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 13/41 | GPU Usage: 11% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 17/30 | GPU Usage: 5% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 14/41 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 18/30 | GPU Usage: 1% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 19/30 | GPU Usage: 12% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 15/41 | GPU Usage: 12% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 16/41 | GPU Usage: 12% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 17/41 | GPU Usage: 12% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 20/30 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 21/30 | GPU Usage: 28% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 18/41 | GPU Usage: 27% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 22/30 | GPU Usage: 5% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 23/30 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 19/41 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 20/41 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 21/41 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 24/30 | GPU Usage: 7% | VRAM: 3.21GB Status: Works loading... (Active: 8/4) | Num of works loaded: 25/30 | GPU Usage: 12% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 22/41 | GPU Usage: 12% | VRAM: 3.21GBStatus: Works loading... (Active: 8/4) | Num of works loaded: 26/30 | GPU Usage: 2% | VRAM: 3.21GB Status: Works loading... (Active: 7/4) | Num of works loaded: 27/30 | GPU Usage: 12% | VRAM: 3.21GBStatus: Works loading... (Active: 7/4) | Num of works loaded: 23/41 | GPU Usage: 48% | VRAM: 3.21GBStatus: Works loading... (Active: 7/4) | Num of works loaded: 24/41 | GPU Usage: 48% | VRAM: 3.21GBStatus: Works loading... (Active: 7/4) | Num of works loaded: 25/41 | GPU Usage: 48% | VRAM: 3.21GBStatus: Works loading... (Active: 6/4) | Num of works loaded: 28/30 | GPU Usage: 29% | VRAM: 3.21GBStatus: Works loading... (Active: 5/4) | Num of works loaded: 29/30 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 5/4) | Num of works loaded: 26/41 | GPU Usage: 15% | VRAM: 3.21GBStatus: Works loading... (Active: 4/4) | Num of works loaded: 30/30 | GPU Usage: 25% | VRAM: 3.21GB / 6.0GB
+
+✅ Parallel dataset generation complete
+Total Time: 2461.85 sec
+Success: 9
+Failed: 21
+Video 2 completed
+Video 2 finished | CPU: 66.0% | GPU: 25.0%
+Status: Works loading... (Active: 4/4) | Num of works loaded: 27/41 | GPU Usage: 20% | VRAM: 3.21GBStatus: Works loading... (Active: 4/4) | Num of works loaded: 28/41 | GPU Usage: 63% | VRAM: 3.21GBStatus: Works loading... (Active: 4/4) | Num of works loaded: 29/41 | GPU Usage: 63% | VRAM: 3.21GBStatus: Works loading... (Active: 4/4) | Num of works loaded: 30/41 | GPU Usage: 46% | VRAM: 3.21GBStatus: Works loading... (Active: 4/4) | Num of works loaded: 31/41 | GPU Usage: 47% | VRAM: 3.21GBStatus: Works loading... (Active: 4/4) | Num of works loaded: 32/41 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 4/4) | Num of works loaded: 33/41 | GPU Usage: 40% | VRAM: 3.21GBStatus: Works loading... (Active: 4/4) | Num of works loaded: 34/41 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 4/4) | Num of works loaded: 35/41 | GPU Usage: 11% | VRAM: 3.21GBStatus: Works loading... (Active: 4/4) | Num of works loaded: 36/41 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 4/4) | Num of works loaded: 37/41 | GPU Usage: 85% | VRAM: 3.21GBStatus: Works loading... (Active: 3/4) | Num of works loaded: 38/41 | GPU Usage: 64% | VRAM: 3.21GBStatus: Works loading... (Active: 2/4) | Num of works loaded: 39/41 | GPU Usage: 0% | VRAM: 3.21GB Status: Works loading... (Active: 1/4) | Num of works loaded: 40/41 | GPU Usage: 79% | VRAM: 3.21GBStatus: Works loading... (Active: 0/4) | Num of works loaded: 41/41 | GPU Usage: 63% | VRAM: 3.21GB / 6.0GB
+
+✅ Parallel dataset generation complete
+Total Time: 3224.4 sec
+Success: 15
+Failed: 26
+Video 3 completed
+Video 3 finished | CPU: 65.1% | GPU: 63.0%
+
+ALL VIDEOS COMPLETED
+Total Pipeline Time: 3722.36 sec

@@ -1,0 +1,35 @@
+# --- Project-specific ignores ---
+Data/
+work/
+
+# --- Python standard ignores ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+.eggs/
+build/
+dist/
+*.log
+
+# --- Virtual environments ---
+venv/
+.env/
+*.env
+
+# --- IDE/editor files ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- OS-specific junk ---
+.DS_Store
+Thumbs.db
+
+# Ignore the whole environment
+Dg/
+

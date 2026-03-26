@@ -1,0 +1,59 @@
+# ===== TORCH GPU (VERY IMPORTANT) =====
+
+--extra-index-url https://download.pytorch.org/whl/cu121
+torch
+torchvision
+torchaudio
+
+# ===== CORE LLM =====
+
+transformers
+accelerate
+bitsandbytes
+optimum
+auto-gptq
+sentencepiece
+
+# ===== SPEECH =====
+
+faster-whisper
+ctranslate2
+
+# ===== EMBEDDINGS =====
+
+sentence-transformers
+faiss-cpu
+
+# ===== VISION =====
+
+ultralytics
+opencv-python
+pillow
+timm
+
+# ===== VIDEO =====
+
+yt-dlp
+ffmpeg-python
+moviepy
+
+# ===== DATA =====
+
+numpy
+pandas
+scikit-learn
+tqdm
+
+# ===== API =====
+
+fastapi
+uvicorn
+pydantic
+redis
+celery
+
+# ===== UTILS =====
+
+einops
+scipy
+matplotlib
