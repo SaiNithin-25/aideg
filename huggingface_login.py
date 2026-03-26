@@ -1,4 +1,4 @@
 from huggingface_hub import login
 
-login(token="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")
+login(token="")  # Replace with your Hugging Face token
 print("Login successful!")
